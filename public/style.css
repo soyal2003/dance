@@ -120,6 +120,8 @@ padding-top: 12px;
 .spImage{
     height: 80%;
     margin: 20px;
+    flex-direction: column;
+
 }
 
 
