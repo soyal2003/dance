@@ -1,0 +1,20 @@
+doctype html 
+html 
+  head 
+    title my Site - #{title}
+    block scripts
+    block style 
+  body 
+    nav#navbar 
+       ul
+          div#logo
+              img(src="/public/img/logo.png") 
+              | HDA          
+          li #[a(href="/") Home]            
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Us]
+          li #[a(href="/") Contact us] 
+    block content    
+    footer#footer 
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved
