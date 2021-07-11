@@ -1,6 +1,6 @@
 touch .gitignore
 git config --global user.name soyal
-git config --global user.email mohdsoyail8875@gmail.com
+git config --global user.enteryouremail.com
 git init
 git add .
 git commit --m "initial commit"
