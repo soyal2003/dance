@@ -42,53 +42,56 @@
 }
 
 #introSection {
-    padding-bottom: 40px;
+    padding-bottom: 390px;
     color: rgb(27, 18, 18);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;   
     justify-content: center;
     background: center /cover no-repeat url("/public/soyal1.png");
-    font-size: 65px;
+    font-size: 40px;
     height: 550px;
-   background-color: aqua;
+   background-color: rgb(46, 49, 49);
 
 }
 
 #introSection div.small{
-    font-size: 52px;
-    padding: 5px;
+    font-size: 30pxpx;
+    padding: 7px;
+    margin-right: 55px;
 }
 #missionSection{
-    height: 325px;
-    width: 67%;
+    height: 288px;
+    width: 100%;
     margin: auto;
+    background-color: rgba(150, 131, 131, 0.712);
     
 }
 #missionSection h2{
 font-family: sans-serif;
 text-align: center;
-padding-top: 12px;
+padding-top: 7px;
+background-color: cadetblue;
 
 }
 .card{
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 23px 10px;
+    margin: 21px 10px;
     width: 30%;
     height: 209px;
 }
 .card h3{
     text-align: center;
     margin: 12px;
-    margin-top: 15px 12px;
+    margin-top: 11px 12px;
     font-family: sans-serif;
 }
 .card-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: 11px;
 }
 .card-img{
     height: 131px;
@@ -102,7 +105,7 @@ padding-top: 12px;
 }
 
 #sponsersSection{
-    height:300px;
+    height:150px;
     background-color: rgb(184, 140, 88);
 }
 #sponsersSection h2{
@@ -112,15 +115,20 @@ padding-top: 12px;
     padding: 12px;
 }
 #sponsors{
-    height: 190px;
+    height: 150px;
     max-width: 1000px;
-    margin: 27px auto;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    margin: -16px auto; 
+        text-align: center;
 }
 
 .spImage{
-    height: 80%;
-    margin: 20px;
-    flex-direction: column;
+    height: 50%;
+    margin: auto;
+    padding:11px;
+  align-items: flex-end;
+  margin-bottom: 10px;
 
 }
 
