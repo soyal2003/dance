@@ -18,8 +18,18 @@ app.get('/contact',(req,res)=>{
     const params={}
     res.status(200).render('contact.pug',params)
 })
-
-
+app.get('/about',(req,res)=>{
+    const params={}
+    res.status(200).render('about.pug',params)
+})
+app.get('/services',(req,res)=>{
+    const params={}
+    res.status(200).render('services.pug',params)
+})
+app.get('/class',(req,res)=>{
+    const params={}
+    res.status(200).render('class.pug',params)
+})
 app.listen(port,(req,res)=>{
     console.log(`server started at ${port}`);
 })
