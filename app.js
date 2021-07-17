@@ -3,7 +3,7 @@ const app=express()
 const path=require('path')
 const bodyParser=require("body-parser")
 const port=8000
-require('./model/db')
+const User=require('./model/db')
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -22,23 +22,7 @@ app.get('/',(req,res)=>{
 })
 
 
-app.post('/contact', function(req, res) {
-    var name = req.body.name;
-    var phone = req.body.phone;
-    var email=req.body.email;
-    // var docs=req.body.docs;
-    var address=req.body.address
 
-    var schema = new Schema(req.body);
-    schema.save()
-    .then(item => {
-    res.send("item saved to database");
-    })
-    .catch(err => {
-    res.status(400).send("unable to save to database");
-    });
-   });
-    // console.log("post received: %s %s", name ,email,address,phone);
 
 app.get('/contact',(req,res)=>{
     const params={}
